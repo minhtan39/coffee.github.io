@@ -1,0 +1,165 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.intro {
+  text-align: center;
+  padding: 5px;
+  background-color: darkgray;
+}
+
+.intro h1 {
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.intro img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 54px;
+}
+.intro p {
+  margin-bottom: 20px;
+}
+.menu {
+  background-color: darkgray;
+  padding: 5px;
+  position: relative;
+}
+
+.menu ul {
+  list-style-type: none;
+  position: relative;
+}
+
+.menu ul h2 {
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.menu-order{
+  margin-left: 30%;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  margin:auto;
+}
+
+.menu-order #search{
+  margin-left: 200px;
+}
+
+#search input{
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  padding: 10px;
+  display: block; 
+}
+.menu ul li a:hover {
+  background-color: #f1f1f1;
+  color: #222;
+}
+.menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: darkgray;
+  padding: 10px;
+}
+
+.menu li:hover .sub-menu {
+  display: block;
+}
+
+.title{
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 5px 2px #6f9a1f;
+  text-wrap: wrap;
+}
+
+.album {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.photo-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.photo {
+  overflow: hidden;
+  flex: 0 0 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  position: relative;
+  margin-top: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.photo:hover img {
+  transform: scale(0.8);
+}
+
+.note{
+  padding-left: 20px;
+  font-size: 25px;
+  color:brown;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-social {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
